@@ -35,7 +35,7 @@
           var pre = '';
           var post = '';
           var t = settings.tag;
-          var c = settings.class;
+          var c = settings['class'];
           if (i==0) {
             post = content.substring(1);
             return pre + "<"+t+" class=\"" + c + "\">" + content[i] + "</"+t+">" + post;
